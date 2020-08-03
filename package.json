@@ -1,0 +1,36 @@
+{
+  "name": "bill_portal_backend",
+  "version": "1.0.0",
+  "description": "my bill portal backend",
+  "main": "server",
+  "scripts": {
+    "start": "node src/config/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eurocodes/bill_portal_backend.git"
+  },
+  "keywords": [
+    "paybills",
+    "bills",
+    "recharge",
+    "topup"
+  ],
+  "author": "Ugochukwu Umeoke (eurocodes)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eurocodes/bill_portal_backend/issues"
+  },
+  "homepage": "https://github.com/eurocodes/bill_portal_backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.19",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}
